@@ -1,0 +1,12 @@
+.main-container{
+    background-color: #f1f2e4;
+}
+
+.gallery-container{
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.gallery-row{
+    background-color: antiquewhite;
+}

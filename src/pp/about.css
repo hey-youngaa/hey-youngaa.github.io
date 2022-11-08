@@ -1,0 +1,76 @@
+.main-container{
+    background-color: #f1f2e4;
+    padding: 20px;
+}
+
+.profile-container{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+
+.profile-wrapper{
+    background-color: #f1f2e4;
+    margin: 10px;   
+}
+
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Montserrat';
+
+}
+
+h2{
+    font-family:'Playfair display';
+}
+
+.profile-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.resume-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+    width: 100%;
+    height: auto;
+}
+
+.left-container{
+    flex: 50%;
+}
+
+.right-container{
+    flex: 50%;
+}
+
+.info-wrapper{
+    background-color: #f1f2e4;
+    margin: 10px;
+}
+
+i{
+    white-space: nowrap;
+}
+
+i+p{
+    display: inline-block;
+}
+
+.resume-link{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    
+}

@@ -1,0 +1,28 @@
+.posts-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    
+}
+
+.post-box{
+    background-color: #e7e9d8;
+    padding: 10px;
+    border-radius: 0.5rem;
+    margin: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+p.post-box{
+    background-color: #e7e9d8;
+}
