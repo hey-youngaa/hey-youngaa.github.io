@@ -3,10 +3,10 @@
 }
 
 .gallery-container{
-    display: grid;
-    grid-gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.gallery-row{
-    background-color: antiquewhite;
-}
+
+
