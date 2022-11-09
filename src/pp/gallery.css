@@ -2,11 +2,25 @@
     background-color: #f1f2e4;
 }
 
-.gallery-container{
+.slider-post-container{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 
+.slider-wrapper{
+    flex: 60%;
+    background: blue;
+}
 
+ImgSlider{
+    object-fit: contain;
+}
 
+.post-wrapper{
+    flex: 40%;
+    background: pink;
+}
+
+video{
+    object-fit: fill;
+}

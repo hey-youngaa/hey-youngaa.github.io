@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer'
 import Home from './pp/Home'
 import About from './pp/About'
 import Writing from './pp/Writing'
-import Gallery from './pp/Gallery'
+import Gallery from './pp/Gallery';
 
 
 function App() {
