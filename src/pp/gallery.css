@@ -9,16 +9,12 @@
 
 .slider-wrapper{
     flex: 60%;
-    background: blue;
-}
-
-ImgSlider{
-    object-fit: contain;
+    background: rgb(218, 208, 208);
 }
 
 .post-wrapper{
     flex: 40%;
-    background: pink;
+    background: #d9e6c1;
 }
 
 video{

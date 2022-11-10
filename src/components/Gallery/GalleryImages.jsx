@@ -6,6 +6,10 @@ import IMG_5 from '../../media/IMG_5.JPG'
 import IMG_6 from '../../media/IMG_6.JPG'
 import IMG_7 from '../../media/IMG_7.JPG'
 import IMG_8 from '../../media/IMG_8.JPG'
+import IMG_9 from '../../media/IMG_9.jpg'
+import IMG_10 from '../../media/IMG_10.JPG'
+import IMG_11 from '../../media/IMG_11.JPG'
+import IMG_12 from '../../media/IMG_12.JPG'
 
 export const GalleryImages =[
     {
@@ -31,5 +35,17 @@ export const GalleryImages =[
     },
     {
         image: IMG_8
+    },
+    {
+        image: IMG_9
+    },
+    {
+        image: IMG_10
+    },
+    {
+        image: IMG_11
+    },
+    {
+        image: IMG_12
     }
 ]

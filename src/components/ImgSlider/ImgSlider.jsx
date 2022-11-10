@@ -21,7 +21,7 @@ function ImgSlider({slides}) {
   return (
     <div className='slider'>
         <i className="fas fa-solid fa-chevron-left" onCLick={prevSlide}/>
-        <i className="fa-solid fa-chevron-right" onClick={nextSlide} />
+        <i className="fas fa-solid fa-chevron-right" onClick={nextSlide} />
         {SliderData.map((slide,index) => {
             return (
                 <div className={index === current ? 'slide active' : 'slide'} key={index}>
