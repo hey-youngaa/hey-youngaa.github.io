@@ -11,6 +11,9 @@ function Gallery() {
         <div className="gallery-container">
             <GalleryPreview images={GalleryImages}/>
         </div>
+        <br />
+        <br />
+        <br />
         <div className="slider-post-container">
           <div className="slider-wrapper">
             <ImgSlider slides={SliderData} />
@@ -26,6 +29,8 @@ function Gallery() {
             </p>
           </div>
         </div>
+        <br />
+        <br />
         <div className="video-container">
           <div className="sf-video">
             <video src='../videos/park.MOV' autoPlay loop muted></video>

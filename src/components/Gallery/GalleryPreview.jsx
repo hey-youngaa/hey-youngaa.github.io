@@ -34,8 +34,8 @@ function GalleryPreview({images}) {
       {openModal &&
         <div className='sliderWrap'>
           <i className="fa fa-regular fa-circle-xmark" onClick={handleCloseModal} />
-          <i className="fa fa-regular fa-circle-left" onClick={prevSlide} />
-          <i className="fa fa-regular fa-circle-right" onClick={nextSlide}/>
+          <i className="fa fa-chevron-left" onClick={prevSlide} />
+          <i className="fa fa-chevron-right" onClick={nextSlide}/>
           <div className="fullscreenImg">
             <img src={images[current].image} alt='' />
           </div>

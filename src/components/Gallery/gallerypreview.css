@@ -1,20 +1,21 @@
 .gallery{
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
-    width: 90%;
-    align-items: center;
-    justify-content: center;
+    width: 100%;
 }
 
 .singleImg{
-    width: 200px;
+    display: flex;
+    max-width: 350px;
+    margin: 5px;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 .galleryimg{
     width: auto;
-    height: 150px;
+    max-height: 150px;
 }
 
 .galleryimg:hover{
@@ -33,25 +34,32 @@
 
 }
 
-.fa-circle-left,.fa-circle-right{
+.fa-chevron-left,.fa-chevron-right{
     position: absolute;
     top: 50%;
     z-index: 10;
     cursor: pointer;
     user-select: none;
+    color: white;
+    font-size: 60px;
 }
 
-.fa-circle-left{
-    left: 10px;
+.fa-chevron-left{
+    left: 15px;
 }
 
-.fa-circle-right{
-    right: 10px;
+.fa-chevron-right{
+    right: 15px;
 }
 
 .fullscreenImg{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+.fullscreenImg img{
+    display: block;
     
 }
