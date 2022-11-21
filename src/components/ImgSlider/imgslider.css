@@ -3,6 +3,16 @@
     position: absolute;
 }
 
+.slide{
+    display: flex;
+    align-items: center;
+    background-color: pink;
+}
+
+.slide,.active{
+
+}
+
 .image{
     width: 600x;
     height: 300px;

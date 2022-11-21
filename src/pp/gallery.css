@@ -1,5 +1,6 @@
 .main-container{
     background-color: #f1f2e4;
+    display: flex;
 }
 
 .slider-post-container{
@@ -8,6 +9,7 @@
 }
 
 .slider-wrapper{
+    display: flex;
     flex: 60%;
     background: rgb(218, 208, 208);
 }
@@ -17,6 +19,3 @@
     background: #d9e6c1;
 }
 
-video{
-    object-fit: fill;
-}

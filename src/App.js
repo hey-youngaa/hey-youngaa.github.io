@@ -7,7 +7,6 @@ import About from './pp/About'
 import Writing from './pp/Writing'
 import Gallery from './pp/Gallery';
 
-
 function App() {
   return (
     <Router>

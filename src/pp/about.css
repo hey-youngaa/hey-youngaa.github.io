@@ -1,6 +1,8 @@
 .main-container{
     background-color: #f1f2e4;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .profile-container{
@@ -40,22 +42,25 @@ h2{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: auto;
-    width: 100%;
+    padding: 10px;
+    max-width: 100%;
     height: auto;
 }
 
 .left-container{
     flex: 50%;
+    margin-right: 5px;
 }
 
 .right-container{
     flex: 50%;
+    margin-left: 5px;
 }
 
 .info-wrapper{
     background-color: #f1f2e4;
     margin: 10px;
+
 }
 
 i{
