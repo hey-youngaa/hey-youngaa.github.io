@@ -5,44 +5,56 @@ export default function About() {
   return (
     <div className='main-container'>
       <div className="profile-container">
-        <div className="profile-wrapper">
-          <div className="profile-text">
-            <h1>Hi there!</h1>
-            <h2>My name is Jessica Choi</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-             irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-              deserunt.</p>
-          </div>
+        <div className="text-wrapper">
+          <h2>Hi there!</h2>
+          <h1>My name is Jessica Choi.</h1>
+          <p>
+            I would like to say that I've always been keen to 
+            detail and composition.
+            <br/>
+            <br/>
+            Maybe it was from the countless 
+            NatGeo and fashion magazines, or the road trips we took out 
+            to the West and East Coast along the National parks. 
+            <br/>
+            <br/>
+            What was alluring me? What grabbed my attention and what made it look 
+            pleasing to the eye? That's what I like to ask myself often,
+            why is it that I like this, what makes it interative and keeps
+            me coming back to it.  
+            <br/>
+            <br/>
+            An amateuar photographer, nature documentaries enthusiast and bread lover 
+          </p>
         </div>
-        <div className="profile-wrapper">
-          <img src="../images/me.jpg" alt="me" className="profile-img" />
+        <div className="propic-wrapper">
+          <img src="../images/me.JPG" alt="profile pic" />
         </div>
       </div>
+
+
       <div className="resume-container">
         <div className="left-container">
-          <div className="info-wrapper">
+          <div className="info-wrapper education">
             <h2>Education</h2>
             <hr />
-            <h3>University of Maryland (2017-2021)</h3>
+            <h3>University of Maryland, <span>2017-2021</span></h3>
             <h5>College of Computer, Mathematical, and Natural Sciences</h5>
             <p>Bachelor of Science, General Biology</p>
             <p>Minor in Asian American Studies</p>
           </div>
-          <div className="info-wrapper">
+          <div className="info-wrapper skills">
             <h2>Technical Skills</h2>
             <hr />
             <h3>Languages</h3>
-            <p>Python.JavaScript.HTML/CSS.LaTex</p>
+            <p>Python, JavaScript, HTML, CSS, LaTex</p>
             <h3>Tools</h3>
-            <p>React.LINUX</p>
+            <p>React, Visual Studio, LINUX</p>
           </div>
-          <div className="info-wrapper">
+          <div className="info-wrapper tools">
             <h2>Design Tools</h2>
             <hr />
-            <p>Figma.Photoshop</p>
+            <p>Figma, Photoshop</p>
           </div>
         </div>
         <div className="right-container">
@@ -54,19 +66,29 @@ export default function About() {
           <div className="info-wrapper">
             <h2>Work Experience</h2>
             <hr />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-             irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-              deserunt.
+            <h3>GeneDx
+            <br/>
+            <span>April 2020 - January 2021</span>
+            </h3>
+            <p>
+              Received and triaged all COVID-19 testing specimens while peforming quality
+              control for the accessioned data.
               <br />
-              ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-             irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-              deserunt.
-              </p>
+              <br />
+              Assigned accession numbers to 200-400 specimens per day and entered in patient
+              and facility information into the LIMS databse with adherence to HIPPA
+            </p>
+            <br />
+            <h3>First-Year Innovation Research Experience Program
+            <br/>
+            <span>August 2017 - May 2019</span></h3>
+            <p>
+
+            </p>
+            <br />
+            <h3>Note taker
+            <br/>
+            <span>August 2019 - December 2019</span></h3>
           </div>
           <div className="info-wrapper"></div>
         </div>

@@ -10,7 +10,7 @@ import IMG_9 from '../../media/IMG_9.jpg'
 import IMG_10 from '../../media/IMG_10.JPG'
 import IMG_11 from '../../media/IMG_11.JPG'
 import IMG_12 from '../../media/IMG_12.JPG'
-import IMG_14 from '../../media/IMG_15.JPG'
+import IMG_14 from '../../media/IMG_14.JPG'
 
 export const galleryImages =[
     {

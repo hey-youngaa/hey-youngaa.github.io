@@ -50,6 +50,11 @@
     transform: scale(1.5);
 }
 
+h2{
+    font-family: 'Monsteratt';
+}
+
+
 @media screen and (max-width: 800px) {
     .footer-links{
         padding-top: 2rem;

@@ -1,66 +1,99 @@
 .main-container{
     background-color: #f1f2e4;
-    padding: 20px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    position: relative;
 }
 
 .profile-container{
-    display: grid;
-    grid-template-columns: repeat(2,auto);
-}
-
-.profile-wrapper{
-    background-color: #f1f2e4;
-    margin: 10px;   
-}
-
-.profile-text{
+    position: relative;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
+    padding: 20px;
+}
+
+.text-wrapper{
+    padding: 10px;
+    flex: 40%;
+}
+
+.text-wrapper h2{
     text-align: center;
+    font-weight: 700;
+    font-family: Georgia;
 }
 
-h1{
-    font-family: 'Montserrat';
-
+.text-wrapper h1{
+    text-align: center;
+    font-family: 'Playfair Display';
+    color: #5291AD ;
 }
 
-h2{
-    font-family:'Playfair display';
+.text-wrapper p{
+    position: relative;
+    padding: 20px;
+    
 }
 
-.profile-img{
-    max-width: 100%;
-    height: auto;
+.propic-wrapper{
+    padding: 10px;
+}
+
+.propic-wrapper img{
     border-radius: 50%;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
-
 .resume-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 40px;
     max-width: 100%;
     height: auto;
+    flex-wrap: wrap;
+    
 }
 
 .left-container{
-    flex: 50%;
+    flex: 40%;
     margin-right: 5px;
+    position: relative;
+    
 }
 
 .right-container{
     flex: 50%;
     margin-left: 5px;
+    position: realtive;
 }
 
 .info-wrapper{
     background-color: #f1f2e4;
     margin: 10px;
 
+}
+
+.education p {
+    font-style: italic;
+}
+
+h3{
+    font-family: Georgia;
+}
+h3 span{
+    font-family: 'Montserrat';
+    font-size: small;
+
+}
+
+.right-container p{
+    font-family: 'Roboto Condensed';
 }
 
 i{
@@ -73,9 +106,16 @@ i+p{
 
 .resume-link{
     text-align: center;
+    transition: all .2s ease-in-out ;
 }
 
-a{
-    text-decoration: none;
-    
+.resume-link:hover{
+    transform: scale(1.2);
 }
+
+.resume-link a{
+    text-decoration: none;
+    color: #2c5d63;
+}
+
+
