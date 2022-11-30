@@ -1,6 +1,6 @@
 .main-container{
     background-color: #f1f2e4;
-    padding: 50px;
+    padding: 70px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +16,7 @@
 }
 
 .text-wrapper{
-    padding: 10px;
+    padding: 20px;
     flex: 40%;
 }
 
@@ -35,6 +35,8 @@
 .text-wrapper p{
     position: relative;
     padding: 20px;
+    font-family: 'Montserrat';
+    word-spacing: 5px;
     
 }
 
@@ -57,7 +59,6 @@
     max-width: 100%;
     height: auto;
     flex-wrap: wrap;
-    
 }
 
 .left-container{
@@ -79,25 +80,37 @@
 
 }
 
-.education p {
-    font-style: italic;
+.info-wrapper h2 {
+    color: #F1997B;
 }
 
-h3{
-    font-family: Georgia;
+.info-wrapper h3{
+    font-family: 'Georgia';
+    font-weight: 300;
+    font-size: large;
+    padding-top: 5px;
 }
+
 h3 span{
-    font-family: 'Montserrat';
+    font-family: 'roboto condensed';
     font-size: small;
+} 
 
+.info-wrapper h5{
+    font-style: italic;
+    font-family: 'roboto condensed';
+    font-weight: 300;
 }
 
-.right-container p{
-    font-family: 'Roboto Condensed';
+.info-wrapper p {
+    font-family: 'roboto';
+    padding-top: 5px;
 }
+
 
 i{
     white-space: nowrap;
+    padding-top: 20px;
 }
 
 i+p{
@@ -111,6 +124,7 @@ i+p{
 
 .resume-link:hover{
     transform: scale(1.2);
+    font-weight: bold;
 }
 
 .resume-link a{

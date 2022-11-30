@@ -1,54 +1,81 @@
 import React from 'react'
 import './writing.css'
 
-
-
 function Writing() {
   return (
-    <div className='main-container'>
-      
-      <div className="posts-container">
-        <div className="post-box">
-          <img src="/images/1.jpg" alt="" className="post-img" />
-          <h3 className='post-title'>Post title</h3>
-          <span className="post-date">Post date</span>
-          <p>Text preview of what the post context</p>
-          
+    <div className='writing_container'>
+      <div className="cards_container">
+        <div className="post_card">
+          <div className="card_img">
+              <img src='/images/3.jpeg' alt="" />
+          </div>
+          <div className="card_body">
+            <h2 className="card_title">Post title</h2>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            </p>
+          </div>
         </div>
-        <div className="post-box">
-          <img src="/images/2.jpg" alt="" className="post-img" />
-          <h3 className='post-title'>Post title</h3>
-          <span className="post-date">Post date</span>
-          <p>Text preview of what the post context</p>
-          
+        <div className="post_card">
+          <div className="card_img">
+              <img src='/images/3.jpeg' alt="" />
+          </div>
+          <div className="card_body">
+            <h2 className="card_title">Post title</h2>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            </p>
+          </div>
         </div>
-        <div className="post-box">
-          <img src="/images/3.jpeg" alt="" className="post-img" />
-          <h3 className='post-title'>Post title</h3>
-          <span className="post-date">Post date</span>
-          <p>Text preview of what the post context</p>
-          
+        <div className="post_card">
+          <div className="card_img">
+              <img src='/images/3.jpeg' alt="" />
+          </div>
+          <div className="card_body">
+            <h2 className="card_title">Post title</h2>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            </p>
+          </div>
         </div>
-        <div className="post-box">
-          <img src="/images/4.jpeg" alt="" className="post-img" />
-          <h3 className='post-title'>Post title</h3>
-          <span className="post-date">Post date</span>
-          <p>Text preview of what the post context</p>
-          
+        <div className="post_card">
+          <div className="card_img">
+              <img src='/images/3.jpeg' alt="" />
+          </div>
+          <div className="card_body">
+            <h2 className="card_title">Post title</h2>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            </p>
+          </div>
         </div>
-        <div className="post-box">
-          <img src="/images/5.jpeg" alt="" className="post-img" />
-          <h3 className='post-title'>Post title</h3>
-          <span className="post-date">Post date</span>
-          <p>Text preview of what the post context</p>
-          
+        <div className="post_card">
+          <div className="card_img">
+              <img src='/images/3.jpeg' alt="" />
+          </div>
+          <div className="card_body">
+            <h2 className="card_title">Post title</h2>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            </p>
+          </div>
         </div>
-        <div className="post-box">
-          <img src="/images/6.jpeg" alt="" className="post-img" />
-          <h3 className='post-title'>Post title</h3>
-          <span className="post-date">Post date</span>
-          <p>Text preview of what the post context</p>
-          
+        <div className="post_card">
+          <div className="card_img">
+              <img src='/images/3.jpeg' alt="" />
+          </div>
+          <div className="card_body">
+            <h2 className="card_title">Post title</h2>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            </p>
+          </div>
         </div>
       </div>
     </div>

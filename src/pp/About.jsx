@@ -38,7 +38,7 @@ export default function About() {
           <div className="info-wrapper education">
             <h2>Education</h2>
             <hr />
-            <h3>University of Maryland, <span>2017-2021</span></h3>
+            <h3>University of Maryland <span>2017-2021</span></h3>
             <h5>College of Computer, Mathematical, and Natural Sciences</h5>
             <p>Bachelor of Science, General Biology</p>
             <p>Minor in Asian American Studies</p>
@@ -56,13 +56,14 @@ export default function About() {
             <hr />
             <p>Figma, Photoshop</p>
           </div>
-        </div>
-        <div className="right-container">
           <div className="info-wrapper">
+            <hr />
             <i className="fas fa-thin fa-paper-plane"></i> <p>jessicahchoi93@gmail.com</p>
             <br></br>
             <i className="fas fa-solid fa-mobile-screen-button"></i> <p>240-938-7074</p>
           </div>
+        </div>
+        <div className="right-container">
           <div className="info-wrapper">
             <h2>Work Experience</h2>
             <hr />
@@ -83,7 +84,11 @@ export default function About() {
             <br/>
             <span>August 2017 - May 2019</span></h3>
             <p>
-
+              Guided students throughout lab experiments and maintained supply of Drosophila
+              melanogaster flies and reagents
+              <br />
+              <br />
+              Conducted experiments for larval genotyping and gene expression
             </p>
             <br />
             <h3>Note taker
