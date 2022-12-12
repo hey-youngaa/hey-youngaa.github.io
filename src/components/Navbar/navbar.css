@@ -1,6 +1,6 @@
 .NavbarItems{
     background: #f1f2e4;
-    height: 80px;
+    height: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +10,12 @@
  .navbar-logo{
     cursor: pointer;
     justify-self: start;
+    font-family: 'Lato';
+    font-weight: 300;
     margin-left: 20px;
-    color: black;
+    color: 'black';
  }
-  
+
  .nav-menu{
     display: grid;
     grid-template-columns: repeat(4,auto);
@@ -22,7 +24,6 @@
     text-align: center;
     width: 70vw;
     justify-content: end;
-    margin-right: 2rem;
  }
   
  .nav-links{
@@ -43,6 +44,7 @@
   
  .fa-bars{
     color: black;
+    
  }
   
  .menu-icon{
