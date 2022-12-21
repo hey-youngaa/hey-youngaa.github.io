@@ -14,39 +14,13 @@
     background-color: #f1f2e4;
 }
 
-.cards_container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-}
-
-.post_card{
-    overflow: hidden;
-    padding: 20px;
-    background-color: #c0dfcd;
-    border-radius: 30px;
-    text-align: center;
-    transition: all .2s ease-in-out;
-}
-
-.post_card:hover{
-    cursor: pointer;
-    border: 1px solid #638c75;
-}
-
-.card_img img{
-    width: 100%;
-    height: auto;
-    border-radius: 20px;
-}
-
 @media only screen and (max-width: 991px){
     .cards_container{
         grid-template-columns: 1fr 1fr;
     }
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
     .cards_container{
         grid-template-columns: 1fr;
     }

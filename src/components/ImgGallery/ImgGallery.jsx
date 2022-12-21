@@ -2,35 +2,43 @@ import React,{useState} from 'react'
 import Masonry,{ResponsiveMasonry} from 'react-responsive-masonry';
 import {galleryImages} from './galleryImages'
 import './imggallery.css'
-
+import CloseIcon from '@mui/icons-material/Close';
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 const ImgGallery = () => {
-  const [data,setData] = useState({img: '', i: 0})
-  
-  const viewImg = (img, i) => {
-    setData({img,i})
+  const [slideNumber, setSlideNumber] = useState(0)
+  const [openModal, setOpenModal] = useState(false)
+
+  const handleOpenModal = (index) => {
+    setSlideNumber(index)
+    setOpenModal(true)
   }
-  const imgAction = (action) => {
-    let i = data.i
-    if (action === 'nextImg'){
-      setData({img:galleryImages[i+1], i: i+1});
-    }
-    if (action === 'prevImg'){
-      setData({img:galleryImages[i-1], i: i-1});
-    }
-    if (!action){
-      setData({img:'', i: 0})
-    }
+
+  const handleCloseModal = () => {
+    setOpenModal(false)
+  }
+
+  const prevSlide = () => {
+    slideNumber === 0 
+    ? setSlideNumber( galleryImages.length -1 ) 
+    : setSlideNumber( slideNumber - 1 )
+  }
+
+  const nextSlide = () => {
+    slideNumber + 1 === galleryImages.length 
+    ? setSlideNumber(0) 
+    : setSlideNumber(slideNumber + 1)
   }
 
   return (
     <>
-      {data.img &&
+      {openModal &&
         <div className='modal_img'>
-          <button className='close' onClick={() => imgAction()}>X</button>
-          <button className='previous' onClick={() => imgAction('prevImg')}>Previous</button>
-          <img src={data.img.src} alt='' className='bigImg' />
-          <button className='next'onClick={() => imgAction('nextImg')} >Next</button>
+          <CloseIcon className='close' onClick={handleCloseModal} />
+          <ArrowBackIosIcon className='previous' onClick={prevSlide}/>
+          <img src={galleryImages[slideNumber].src} alt='' className='bigImg' />
+          <ArrowForwardIosIcon className='next' onClick={nextSlide} />
         </div>
       }
       <div className='masonry_container'>
@@ -42,7 +50,7 @@ const ImgGallery = () => {
                 src={item.src}
                 alt=""
                 className='singleImg'
-                onClick={() => viewImg(item,i)}
+                onClick={() => handleOpenModal(i)}
               />
             ))}
           </Masonry>

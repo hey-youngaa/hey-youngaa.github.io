@@ -1,6 +1,6 @@
 .masonry_container{
     background-color: #f1f2e4;
-    padding: 20px;
+    padding: 50px;
 }
 
 .singleImg{
@@ -22,17 +22,16 @@
 
 .bigImg{
     width: auto;
-    max-height: 90%;
-    max-height: 90%;
-    object-fit: contain;
-    padding: auto;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 60px;
 }
 
 .close{
     color: black;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 35px;
     cursor: pointer;
     border: none;
     font-size: large;
@@ -45,9 +44,9 @@
 }
 
 .previous{
-    left: 10px;
+    left: 35px;
 }
 
 .next{
-    right: 10px;
+    right: 35px;
 }

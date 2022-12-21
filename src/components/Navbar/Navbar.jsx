@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {MenuItems} from './MenuItems'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './navbar.css'
  
 class Navbar extends Component {
@@ -13,7 +13,7 @@ handleClick = () => {
  render() {
    return (
      <nav className='NavbarItems'>
-       <Link to='/'><h1 className="navbar-logo">J.</h1></Link>
+       <Link to='/'><img src='/images/logo.png' alt="" className='logo'/></Link>
        <div className="menu-icon" onClick={this.handleClick}>
          <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
        </div>

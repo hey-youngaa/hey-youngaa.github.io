@@ -1,0 +1,30 @@
+.main_container{
+    padding: 50px;
+}
+.blog_container{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.blog_card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.blog_card:hover{
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.post_img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

@@ -1,21 +1,28 @@
 .NavbarItems{
     background: #f1f2e4;
     height: 90px;
+    padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
  }
   
- .navbar-logo{
+ .logo{
     cursor: pointer;
+    display: flex;
+    padding: auto;
+    max-width: 10%;
+    max-height: 10%;
     justify-self: start;
-    font-family: 'Lato';
-    font-weight: 300;
     margin-left: 20px;
-    color: 'black';
+    transition: all .2s ease-in-out;
  }
 
+ .logo:hover{
+    transform: scale(1.5);
+ }
+ 
  .nav-menu{
     display: grid;
     grid-template-columns: repeat(4,auto);
@@ -93,11 +100,12 @@
        
     }
   
-    .navbar-logo{
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(25%,50%);
+    .logo{
+        cursor: pointer;
+        position: realtive;
+        padding-top: 20px;
+        max-width: 7%;
+        max-height: 7%;
     }
   
     .menu-icon{
