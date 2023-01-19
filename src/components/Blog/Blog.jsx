@@ -7,20 +7,21 @@ import './blog.css'
 function Blog() {
   return (
     <>
-        <div className="main_container">
-            <div className="blog_container">
+        <div className="mainContainer">
+            <div className="blogContainer">
                 {BlogItems.map((item) => (
-                    <div className="blog_card" key={item.id}>
-                        <div className="post_img">
+                    <Link to={`/writing/post/${item.id}`} className='postLink'>
+                    <div className="blogCard" key={item.id}>
+                        <div className="postImg">
                             <img  src={item.cover} alt="" />
                         </div>
-                        <div className="post_details">
-                            <Link to='/blog/{item.id}' >
-                                <h3>{item.title}</h3>
-                            </Link>
-                            <p>{item.desc}</p> 
+                        <div className="postDetails">
+                            <h3 className='postTitle'>{item.title}</h3>
+                            
+                            <p className='postDesc'>{item.desc}</p> 
                         </div>
-                    </div>
+                    </div> 
+                    </Link>
                 ))}
             </div> 
         </div>

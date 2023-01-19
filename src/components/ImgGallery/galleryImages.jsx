@@ -12,6 +12,10 @@ import IMG_11 from '../../media/IMG_11.JPG'
 import IMG_12 from '../../media/IMG_12.JPG'
 import IMG_14 from '../../media/IMG_14.JPG'
 import IMG_15 from '../../media/IMG_15.JPG'
+import IMG_16 from '../../media/IMG_16.JPG'
+import IMG_17 from '../../media/IMG_17.JPG'
+import IMG_18 from '../../media/IMG_18.JPG'
+import IMG_19 from '../../media/IMG_19.JPG'
 
 export const galleryImages =[
     {
@@ -39,6 +43,9 @@ export const galleryImages =[
         src: IMG_8
     },
     {
+        src: IMG_19
+    },
+    {
         src: IMG_12
     },
     {
@@ -54,6 +61,15 @@ export const galleryImages =[
         src: IMG_6
     },
     {
+        src: IMG_17
+    },
+    {
         src: IMG_14
-    }
+    },
+    {
+        src: IMG_18
+    },
+    {
+        src: IMG_16
+    },
 ]

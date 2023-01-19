@@ -1,0 +1,27 @@
+.singlePost{
+    padding: 7%;
+    box-sizing: border-box;
+}
+
+.postImgWrapper img{
+    max-width: 100%;
+    height: auto;
+}
+
+.postTextWrapper h1{
+    margin: 10px 0;
+    font-family: 'Georgia';
+}
+
+.postTextWrapper p{
+    margin: 10px 0;
+    font-family: 'roboto';
+    font-size: larger;
+    text-align: justify;
+    word-spacing: 5px;
+    text-indent: 40px;
+    margin-top: 20px;
+}
+
+
+
