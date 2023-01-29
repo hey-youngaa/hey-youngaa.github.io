@@ -21,7 +21,7 @@ export const PostDetails = () => {
                 <section className="singlePost">
                     <div className="postContainer">
                         <div className="postImgWrapper">
-                            <img src={posts.cover} alt="" />
+                            <img src={posts.image} alt=""/>
                         </div>
                         <div className="postTextWrapper">
                             <h1>{posts.title}</h1>

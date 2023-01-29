@@ -17,7 +17,6 @@ function Blog() {
                         </div>
                         <div className="postDetails">
                             <h3 className='postTitle'>{item.title}</h3>
-                            
                             <p className='postDesc'>{item.desc}</p> 
                         </div>
                     </div> 

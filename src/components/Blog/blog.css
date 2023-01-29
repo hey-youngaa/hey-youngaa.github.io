@@ -5,7 +5,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     column-gap: 15px;
-    gap: 15px;
+    gap: 20px;
     justify-items: center;
   
 }
@@ -22,7 +22,7 @@
 }
 
 .blogCard:hover{
-    border: 1px solid #C70039;
+    border: 2px solid salmon;
 }
 
 .postImg{
@@ -39,8 +39,6 @@
     display: flex;
     flex-direction: column;
     background: #F0B5AF;
-    overflow: hidden;
-    
 }
 
 .postLink{
@@ -50,19 +48,24 @@
 
 .postTitle{
     background-color: #F0B5AF;
+    font-family: 'Playfair Display';
+    margin: 5px 0;
 }
 
 .postDesc{
     background-color: #F0B5AF;
+    font-size: medium;
+    font-family: 'roboto';
+    margin: 1px;
 }
 
-@media screen and (max-width:850px){
+@media screen and (max-width:900px){
     .blogContainer{
         grid-template-columns: repeat(2,1fr)
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     .blogContainer{
         grid-template-columns: 1fr;
     }

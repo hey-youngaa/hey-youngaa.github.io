@@ -9,6 +9,7 @@ export default function About() {
           <h2>Hi there!</h2>
           <h1>My name is Jessica Choi.</h1>
           <p>
+            I graduated with the intent of pursuing a career in Biolgical research
             Currently I'm learning how to code and design to become a UX/UI designer.
             And you are looking at my very first website! 
             <br/>

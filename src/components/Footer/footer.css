@@ -11,7 +11,7 @@
     width: 100%;
     max-width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .footer-link-wrapper{
@@ -28,6 +28,7 @@
 
 .footer-link-items h2{
     margin-bottom: 16px;
+    text-align: center;
 }
 
 .footer-link-items > h2{
