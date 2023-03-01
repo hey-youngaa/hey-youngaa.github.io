@@ -12,15 +12,15 @@ export const BlogItems = [
         desc: 'Researching and setting up a plan',
         cover: card1,
         image: idea,
-        text1: `
-        I’ve designed and edited several photo compositions many times as a hobby of mine. But designing a website was a first. First, I researched examples of  UX designer portfolio websites, while asking myself, what components did I like, what did I not like? What were some features that seemed interactive and kept me interested to look around? These were important factors to consider for a basic effective website. `,
-        
-        text2:`At first I was optimistic and kept wanting to include many components to make the website look ‘cool’. But that would be overwhelming for my first project. So simple is the way to go. 
-        There were a couple of minimal design websites that I liked, and so I first organized the look on figma to visually see how the website would appear. Then came the fine details of the color palette and choice of fonts. `,
-        
-        text3:`To me, I find color to be important, it can make or break first impressions if not pleasing to the eye. I knew I didn’t want the site to be simply white and black. Playing with colors is fun and I wanted to display a colorful but toned down palette to look calm and friendly. `,
+        text1: `The first thing that pops up when you search "UX/UI project ideas for beginners", is a blog.
+        So that's what I planned to do, create my very own blog. But as you can see from browsing though the site,
+        it ended up looking more of a personal website.`,
 
-        
+        text2:`At first, I was brainstorming so many components to make the site look as cool and complex as possible.
+        A responsive multi-row gallery, endless blog posts to reflect my coding progress, fancy design elements and so forth.
+        However, that was above my current skill level, so I kept the design and features simple. I took inspiration from portfolio
+        examples on Wix, Cargo and Google seraches to understand what made a minimal design good and how could I bring it to life with 
+        code.`
     },
     {
         id: 2,
@@ -28,11 +28,20 @@ export const BlogItems = [
         desc: 'The excitement and struggles',
         cover: card2,
         image: Process,
-        text1: `Components such as the navigation bar and footer were easy to create by following youtube tutorials. 
-        The page I actually struggled with was the gallery. Originally, I wanted to format it after a template I found on Cargo, where the rows of images were not only responsive but so were the sizes of the images. I struggled with the symmetry and seamless transitions, and made the decision to change formats. Went with the decision to utilize a masonry component that would make the code simpler and cleaner as it eliminates the need to create media queries to adjust items to screen sizes. `,
+        text1: `Only knowing the JavaScript basics, I spent a tremendous amount of time searching and following along
+        YouTube tutorials. The  navigation bar and footer components were relatively straight forward to understand and create. 
+        The pages, on the other hand, took more thought and efffort on how the code was to be written and organized.
+        Where I struggled the most was organizing the posts' details to follow the same structure without
+        repeating code. The idea was there, but how was it to be executed?   
+        `,
         
-        text2:` Another component that I first envisioned but scraped in the end was a slider image gallery. Once it was complete, it didn’t look cohesive with the gallery on top and so decided to remove it from the page. 
-        A lot of fine tuning was done to make sure site looked good when viewed on mobile. `,
+        text2:`The solution? Break it into even smaller parts, to create reusable components. The second dilemma I struggled
+        with was the gallery page, as it wasn't what I originally envioned. Inspired from a Cargo template, I wanted the gallery
+        to be made of multiple rows that would be responsive at the same time. But again, it was difficult to code and hence I found 
+        the solution of using a component that React provided.`,
+
+        text3: `I learned that it's ok to not code everything from scartch. That's the beauty with code, hundreds of people out
+        there have created code components that can be used by anyone to make coding a little easier.`
     },
     {
         id: 3,
@@ -40,10 +49,9 @@ export const BlogItems = [
         desc: 'Final and future thoughts',
         cover: card3,
         image: result,
-        text1:`Once published, I felt incredibly satisfied with the final result. I learned new design elements, CSS animations, basic code, and it was a progressive journey with my own code writing. As I put more thought into how the elements were organized and how the code was written to be the most efficient but also the simplest it can be. 
-        It also left me feeling more confident with my own skills and in a way proved to myself that I am capable of learning an entirely new field and that I really do enjoy designing. 
-        `,
-
-        text2:``,
+        text1:`It was an incredibly rewarding feeling to complete this project. I learned alot
+        throughout the entire process and gained confidence in my newly obtained skills. There's still much 
+        to learn but completing one project gave me the affirmation that I am capable of learning an entirely different
+        field and that I do enjoy designing.`
     }
 ]

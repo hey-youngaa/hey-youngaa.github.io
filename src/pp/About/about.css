@@ -17,7 +17,7 @@
 
 .text-wrapper{
     padding: 20px;
-    flex: 30%;
+    flex: 40%;
 }
 
 .text-wrapper h2{
@@ -86,20 +86,21 @@
 }
 
 .info-wrapper h3{
-    font-family: 'Georgia';
+    font-family: 'roboto';
     font-weight: 300;
-    font-size: large;
+    font-size: 20px;
     padding-top: 5px;
 }
 
 h3 span{
     font-family: 'roboto condensed';
-    font-size: small;
+    font-size: medium;
+    font-weight: 400;
 } 
 
 .info-wrapper h5{
     font-style: italic;
-    font-family: 'roboto condensed';
+    font-family: 'roboto';
     font-weight: 300;
     margin-top: 6px;
 }
@@ -130,7 +131,7 @@ i+p{
 
 .resume-link a{
     text-decoration: none;
-    color: #2c5d63;
+    color: #4E9069;;
 }
 
 

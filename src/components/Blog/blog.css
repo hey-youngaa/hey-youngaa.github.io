@@ -48,14 +48,14 @@
 
 .postTitle{
     background-color: #F0B5AF;
-    font-family: 'Playfair Display';
+    font-family: 'playfair display';
     margin: 5px 0;
 }
 
 .postDesc{
     background-color: #F0B5AF;
     font-size: medium;
-    font-family: 'roboto';
+    font-family: 'georgia';
     margin: 1px;
 }
 

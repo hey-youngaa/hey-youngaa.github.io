@@ -9,13 +9,12 @@
  }
   
  .logo{
+    color: #f19271;
+    font-family: 'Rubik';
+    text-decoration: none;
     cursor: pointer;
-    display: flex;
-    padding: auto;
-    max-width: 10%;
-    max-height: 10%;
     justify-self: start;
-    margin-left: 20px;
+    font-size: 3rem;
     transition: all .2s ease-in-out;
  }
 
@@ -99,15 +98,14 @@
         transform: scale(1.5);
        
     }
-  
+
     .logo{
-        cursor: pointer;
-        position: realtive;
-        padding-top: 20px;
-        max-width: 7%;
-        max-height: 7%;
+      position: absolute;
+      left: 2rem;
+      
+
     }
-  
+    
     .menu-icon{
         display: block;
         position: absolute;
