@@ -2,7 +2,7 @@
   "name": "site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://{github-hey-youngaa}.github.io{hey-youngaa.github.io}",
+  "homepage": "http://hey-youngaa.github.io/portfolio",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
