@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9018b8b4.css",
+    "main.js": "/portfolio/static/js/main.38c3d3ca.js",
+    "static/media/waves.mov": "/portfolio/static/media/waves.a0fbd68112b0fbc3dd3f.mov",
+    "static/media/IMG_4.JPG": "/portfolio/static/media/IMG_4.14cebeab51d969f808f1.JPG",
+    "static/media/IMG_2.JPG": "/portfolio/static/media/IMG_2.288de74a8f70302577d2.JPG",
+    "static/media/IMG_7.JPG": "/portfolio/static/media/IMG_7.cf8776476dc28a8e297c.JPG",
+    "static/media/IMG_16.JPG": "/portfolio/static/media/IMG_16.46591ca33b6202019f06.JPG",
+    "static/media/IMG_6.JPG": "/portfolio/static/media/IMG_6.2a4cdb4b98be20b322c0.JPG",
+    "static/media/IMG_10.JPG": "/portfolio/static/media/IMG_10.8288d0a55daf8f7d8e59.JPG",
+    "static/media/IMG_12.JPG": "/portfolio/static/media/IMG_12.6eec6ee0107db8d73793.JPG",
+    "static/media/IMG_8.JPG": "/portfolio/static/media/IMG_8.6b572fd977e9bc80a5aa.JPG",
+    "static/media/IMG_1.JPG": "/portfolio/static/media/IMG_1.e4a8ea864d8187b2f5e2.JPG",
+    "static/media/IMG_20.JPG": "/portfolio/static/media/IMG_20.a4dc456a5ea2c40b527a.JPG",
+    "static/media/IMG_17.JPG": "/portfolio/static/media/IMG_17.105658c86e33bc34e439.JPG",
+    "static/media/IMG_3.JPG": "/portfolio/static/media/IMG_3.431aec6e69a35394e1c8.JPG",
+    "static/media/IMG_5.JPG": "/portfolio/static/media/IMG_5.53856c49cdd1a4251ab0.JPG",
+    "static/media/IMG_9.jpg": "/portfolio/static/media/IMG_9.91929dac442f59a0f703.jpg",
+    "static/media/IMG_14.JPG": "/portfolio/static/media/IMG_14.0560cb9d77aa016a7800.JPG",
+    "static/media/IMG_19.JPG": "/portfolio/static/media/IMG_19.0d93be6dda5ab87fbe1c.JPG",
+    "static/media/IMG_11.JPG": "/portfolio/static/media/IMG_11.0ed92a246a435e90a4b9.JPG",
+    "static/media/IMG_18.JPG": "/portfolio/static/media/IMG_18.bb1e9bc7ec2a7999fbb8.JPG",
+    "static/media/me.JPG": "/portfolio/static/media/me.0940eff9d8ef03e70668.JPG",
+    "static/media/card2.JPG": "/portfolio/static/media/card2.3aece52b4492d1ae5c07.JPG",
+    "static/media/card1.JPG": "/portfolio/static/media/card1.1f0d27548bd0fa4ce911.JPG",
+    "static/media/card3.JPG": "/portfolio/static/media/card3.e14e2d18bdbaa9784d1d.JPG",
+    "static/media/idea.png": "/portfolio/static/media/idea.309f1fd75d527fdb777e.png",
+    "static/media/result.png": "/portfolio/static/media/result.4147c4279e28531f7e97.png",
+    "static/media/Process.png": "/portfolio/static/media/Process.58075cd1b6816f66eea0.png",
+    "index.html": "/portfolio/index.html",
+    "main.9018b8b4.css.map": "/portfolio/static/css/main.9018b8b4.css.map",
+    "main.38c3d3ca.js.map": "/portfolio/static/js/main.38c3d3ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9018b8b4.css",
+    "static/js/main.38c3d3ca.js"
+  ]
+}
