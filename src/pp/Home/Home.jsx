@@ -1,10 +1,10 @@
 import React from 'react'
 import './home.css'
-
+import waves from '../../media/waves.mov'
 export default function Home() {
   return (
     <div className='main-container'>
-      <video src='../videos/waves.mov' autoPlay loop muted></video>
+      <video src={waves} autoPlay loop muted></video>
     </div>
   )
 }

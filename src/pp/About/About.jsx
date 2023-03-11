@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-
+import Self from '../../media/me.JPG'
 export default function About() {
   return (
     <div className='main-container'>
@@ -19,7 +19,7 @@ export default function About() {
           </p>
         </div>
         <div className="propic-wrapper">
-          <img src="../images/me.JPG" alt="profile pic" />
+          <img src={Self} alt="profile pic" />
         </div>
       </div>
 
